@@ -29,7 +29,7 @@
  		<div class="row-social w-100 d-flex flex-row justify-content-end align-items-center pr-5">
  			<div class="col-lg-6 col-xl-6 offset-lg-1 offset-xl-1 d-flex">
  				<div class="d-flex-row-center">
- 					<i class="material-icons" style="font-size: 12px;">phone</i>&nbsp;<span style="font-size: 11px;color:#777">(99) 3538-0000</span>
+ 					<i class="material-icons" style="font-size: 12px;">phone</i>&nbsp;<span style="font-size: 11px;color:#777">(99) 3592-0017</span>
  				</div>
  				<div class="d-flex-row-center">
  					<i class="fas fa-envelope pl-3" style="font-size: 12px;"></i>&nbsp;<span style="font-size: 12px;color:#777">contato@adonaicoc.com.br</span>
