@@ -18,7 +18,7 @@
 						<li><i class="fas fa-envelope" style="font-size: 12px;"></i> &nbsp;<a href="#">contato@adonaicoc.com.br</a></li>
 						<li><i class="material-icons" style="font-size: 12px;">phone</i>&nbsp; <a href="#">(99) 3592-0017</a></li>
 						<li><i class="fas fa-globe" style="font-size: 12px;"></i>&nbsp; <a href="#">www.adonaicoc.com.br</a></li>
-						<li><i class="fas fa-home" style="font-size: 12px;"></i>&nbsp; Rua São Francisco, 421, Açailândia</li>
+						<li><i class="fas fa-home" style="font-size: 12px;"></i>&nbsp; Rua São Francisco, 12 QD 13, Açailândia</li>
 					</ul>
 				</div>
 				<div class="col-lg-3 col-xl-3">
@@ -37,7 +37,7 @@
 					<ul class="footer-2 p-0">
 						<li class="news"><a href="#">Portal Coc</a></li>
 						<li class="news"><a href="#">Agenda Digital</a></li>
-						<li class="news"><a href="#">Exap</a></li>
+						<li class="news"><a href="#"><a href="http://186.193.186.244:8088/sg_web/Acesso.aspx?escola=4242" target="_blank">Diário Eletrônico</a></a></li>
 						<li class="news"><a href="#">E-mail do Aluno</a></li>
 					</ul>
 				</div>
@@ -47,7 +47,7 @@
 		<div class="footer-copyright">
 			<div class="container p-0 d-flex flex-row align-items-center h-100">
 				<div class="col-lg-9 col-xl-9 pl-0">
-					Copyright © 2016-2018 Adonai COC
+					Copyright © 2016-2018 Instituto Educacional Adonai COC
 				</div>
 				<div class="col-lg-3 col-xl-3 d-flex flex-row">
 					<a class="fb" href="#"><i class="fab fa-twitter"></i></a>

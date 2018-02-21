@@ -15,13 +15,13 @@
 			  </ol>
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
-			      <img class="d-block w-100" src="http://via.placeholder.com/1200x400" alt="First slide">
+			      <img class="d-block w-100" src="{{asset('img/20170815162225388.jpg')}}" alt="First slide">
 			    </div>
 			    <div class="carousel-item">
-			      <img class="d-block w-100" src="http://via.placeholder.com/1200x400" alt="Second slide">
+			      <img class="d-block w-100" src="{{asset('img/20170815162156596.jpg')}}" alt="Second slide">
 			    </div>
 			    <div class="carousel-item">
-			      <img class="d-block w-100" src="http://via.placeholder.com/1200x400" alt="Third slide">
+			      <img class="d-block w-100" src="{{asset('img/20170815162129100.jpg')}}" alt="Third slide">
 			    </div>
 			  </div>
 			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -35,6 +35,20 @@
 			</div>
 		</section>
 		<!-- FIM SLIDER -->
+
+		<section class="sub-slider">
+			<div class="row h-100">
+				<div class="col-lg-4 col-xl-4 d-flex-row-end">
+					EDUCAÇÃO INFANTIL 
+				</div>
+				<div class="col-lg-4 col-xl-4 d-flex-row-center">
+					ENSINO FUNDAMENTAL
+				</div>
+				<div class="col-lg-4 col-xl-4 d-flex-row-start">
+					ENSINO MÉDIO
+				</div>
+			</div>
+		</section>
 
 		<section class="cards-top relative d-flex flex-row">
 			<div class="wrapper1 cards1 w-100">
@@ -89,7 +103,7 @@
 		</section>
 
 		<section class="whycoc pb-5">
-			<h1 class="title-on">POR QUE SER COC ?</h1>
+			<h1 class="title-on">POR QUE SER ADONAI - COC ?</h1>
 			<h6 class="subtitle">Tradição e tecnologia para a educação</h6>
 
 			<p>O Sistema COC de Ensino, há mais de 50 anos no mercado de educação, alia pioneirismo em tecnologia dentro e fora da sala de aula, qualidade de ensino, aprovações em universidades e muito mais. Sua metodologia exclusiva proporciona ao aluno um mix completo de soluções educacionais que o ajudam a se preparar não só para o vestibular, mas para a vida inteira.</p>
@@ -97,17 +111,17 @@
 			<div class="row mt-5 pr-5 card-mid">
 				<div class="col-lg-4 col-xl-4 d-flex-column-center">
 					<img class="rounded-circle" src="{{asset('img/img1.jpg')}}">
-					<h1 class="menor mt-2">Pais e Alunos</h1>
+					<h1 class="subtitle menor mt-2">Pais e Alunos</h1>
 					<p>Material didático diferenciado e atualizado e ferramentas complementares como o plantão on-line que ajudam o aluno em todos os momentos. Suporte completo para acompanhamento do aprendizado.</p>
 				</div>
 				<div class="col-lg-4 col-xl-4 d-flex-column-center">
 					<img class="rounded-circle" src="{{asset('img/img2.jpg')}}">
-					<h1 class="menor mt-2">Professores</h1>
+					<h1 class="subtitle menor mt-2">Professores</h1>
 					<p>Capacitação e treinamentos constantes para manter as equipes atualizadas com as mais modernas técnicas de ensino. Proposta pedagógica integrada, multimídia e multiconectada adaptada à cada escola.</p>
 				</div>
 				<div class="col-lg-4 col-xl-4 d-flex-column-center">
 					<img class="rounded-circle" src="{{asset('img/img3.jpg')}}">
-					<h1 class="menor mt-2">Mantenedores</h1>
+					<h1 class="subtitle menor mt-2">Mantenedores</h1>
 					<p>Marca forte e reconhecida no mercado, presente em todos os segmentos, com um portfólio completo de produtos para maximizar os resultados. Ampla consultoria para desenvolvimento contínuo e exclusivo Programa de Excelência.</p>
 				</div>
 			</div>
@@ -120,10 +134,27 @@
 				<div class="d-flex flex-row">
 					<div class="col-lg-7 col-xl-7">
 
-						<h1 class="title-on">Desde 1983</h1>
+						<h1 class="title-on">Desde 1998</h1>
 
-						<p class="geral text-justify">Em maio de 1983, um grupo de professores de São Paulo estabeleceu-se em Santos, iniciando as atividades do então Cursinho Universitário de Santos. Calcados em metodologia triunfante e utilizada por vários anos na capital, o Cursinho Universitário, em pouco tempo, tornou-se referência obrigatória aos interessados em concorrer aos exames vestibulares de todo o país. Iniciava-se, aí, a longa história de um curso preparatório responsável pela aprovação de inúmeros estudantes, hoje profissionais de destaque em diferentes áreas do mercado de trabalho.
-						Não se sobrevive 34 anos sem predicados, entre eles destacando-se a permanente qualidade de ensino, a responsabilidade e o profundo respeito pelos estudantes e seus familiares. Aliás, sobre famílias importa destacar que muito do que se conseguiu em termos de educação e formação de nossos alunos deveu-se às sólidas parcerias que sempre se estabeleceram entre elas e a escola. De fato, constituem-se os pais e responsáveis em parte integrante e fundamental do processo educacional que adotamos, o qual se traduz no sucesso alcançado pelos nossos alunos.</p>
+						<p class="geral text-justify">O Projeto Político Pedagógico do Instituto Educacional Adonai está fundamentado em uma visão cristã e apresenta toda nossa proposta educacional, tendo em vista os objetivos, as metas, o diagnóstico e a visão de futuro.</p>
+							
+						<p class="geral text-justify">Nosso fazer pedagógico fundamenta-se em valores, conhecimentos científicos - tecnológicos e teorias do pensamento que enfatizam a formação integral do aluno, visando ser reconhecido por sua excelência fundamentado em princípios bíblico – cristãos.
+						A humanização do saber, a ética, a valorização das pessoas, a justiça e a verdade sustentam a nossa prática e perpassam nossas atitudes.</p>
+						
+						<p class="geral text-justify">O aluno, com seu potencial, necessidades e defeitos, é a razão do nosso trabalho, e com ele desejamos construir a mudança, assumindo o compromisso de educar juntos.</p>
+						<p class="geral text-justify">
+						Na leitura dessa produção, constata-se a elaboração conjunta, a preocupação com o processo educativo, visando:</p>
+						<ul style="color:#777">
+						<li>Concorrer para a construção do caráter baseado nos princípios bíblico-cristãos;</li>
+						<li>O dinamismo da realidade;</li> 
+						<li>A produção conjunta e a socialização do saber situado no tempo e no espaço;</li>
+						<li>O respeito ao direito fundamental das pessoas;</li>
+						<li>O desenvolvimento do senso crítico e pensamento reflexivo;</li>
+						<li>O cultivo da dimensão transcendental e religiosa.</li>
+						</ul>
+						<p class="geral text-justify">Os conjuntos das proposições aqui expressas pretendem responder às necessidades vigentes e criar uma prática pedagógica altamente organizada, que garanta o respeito às diversidades culturais, regionais, étnicas, religiosas e políticas, que existem numa sociedade múltipla e complexa, objetivando a igualdade de direitos entre todos de acordo com os princípios democráticos.
+						Portanto, o Instituto Educacional Adonai através do Projeto Político Pedagógico, deseja contemplar um ensino contextualizado e comprometido com o resgate de valores fundamentais. Logo, a sua elaboração contou com a participação de pais, alunos, professores, coordenadores e diretores, os quais acumularam durante anos sonhos, desejos de crescimento e reconhecimento, o que nos posibilitou sistematizar o conhecimento e traçar caminhos reais para a realização destes ideais.
+						</p>
 
 					</div>
 

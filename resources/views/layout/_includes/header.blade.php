@@ -35,7 +35,7 @@
  					<i class="fas fa-envelope pl-3" style="font-size: 12px;"></i>&nbsp;<span style="font-size: 12px;color:#777">contato@adonaicoc.com.br</span>
 				</div>
 				<div class="d-flex-row-center">
-					<i class="fas fa-home pl-3" style="font-size: 12px;"></i>&nbsp;<span style="font-size: 12px;color:#777">Rua São Francisco, 421, Açailândia - MA</span>
+					<i class="fas fa-home pl-3" style="font-size: 12px;"></i>&nbsp;<span style="font-size: 12px;color:#777">Rua São Francisco, 12 QD 13, Açailândia - MA</span>
 				</div>
  			</div>
  			<div class="col-lg-5 col-xl-5 d-flex-row-end h-100">
@@ -48,24 +48,37 @@
 			</div>
  		</div>
 
-		<div class="row topo">
-			<div class="col-lg-4 col-xl-4 offset-lg-1 offset-xl-1 p-0">
-				<img src="http://via.placeholder.com/200x100" alt="LOGOMARCA" class="logo">
+		<div class="row topo p-0">
+			<div class="col-lg-4 col-xl-4 offset-lg-1 offset-xl-1 pl-4 d-flex flex-row align-items-center">
+				<img src="{{asset('img/LOGOADONAI.png')}}" alt="LOGOMARCA" class="logo img-fluid">
 				<!-- <img src="http://via.placeholder.com/180x50" alt="LOGOMARCA" class="logo1"> -->
 			</div>
-			<div class="col-lg-6 col-xl-6 d-flex-row-end p-0">
-				<nav class="w-100 h-100 d-flex-row-center">
+			<div class="col-lg-6 col-xl-6 d-flex-row-end p-0 h-100 m-0">
+				<nav class="w-100 h-100 d-flex-row-end">
 					<div class="nav d-flex-row-center active">
 						<a href="#" class="null">A Escola</a>
 					</div>
 					<div class="nav d-flex-row-center">
 						Fale Conosco
 					</div>
-					<div class="nav d-flex-row-center">
+					<div class="nav d-flex-row-center relative">
 						Unidades
+						<div class="sub-nav sub-nav-2">
+							<ul>
+								<li>Açailândia</li>
+							</ul>
+						</div>
 					</div>
-					<div class="nav d-flex-row-center">
+					<div class="nav d-flex-row-center relative">
 						Links
+						<div class="sub-nav sub-nav-3">
+							<ul>
+								<li>Portal Coc</li>
+								<li>Agenda Digital</li>
+								<li><a href="http://186.193.186.244:8088/sg_web/Acesso.aspx?escola=4242" target="_blank">Diário Eletrônico</a></li>
+								<li>Webmail</li>
+							</ul>
+						</div>
 					</div>
 				</nav>
 			</div>
