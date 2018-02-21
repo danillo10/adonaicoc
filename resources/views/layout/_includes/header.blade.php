@@ -22,6 +22,10 @@
 	<!-- Estilo -->
 	<link href="css/style.css" rel="stylesheet">
 
+	<script>
+		alert("Site em construção!");
+	</script>
+
 </head>
 <body>
 
