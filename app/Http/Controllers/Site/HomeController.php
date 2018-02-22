@@ -4,6 +4,11 @@ namespace App\Http\Controllers\Site;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\MessageBag;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Input;
+
+use Mail;
 
 class HomeController extends Controller
 {

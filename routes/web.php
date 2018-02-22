@@ -15,6 +15,12 @@
 	ROTAS DE ABERTURA DE PÁGINAS 
 */
 
+Route::get('send_test_email', function(){
+	Mail::raw('Sending emails with Mailgun and Laravel is easy!', function($message)
+	{
+		$message->to('contato@adonaicoc.com.br');
+	});
+});
 Route::post('/enviar-contato', ['as'=>'site.enviarcontato', 'uses'=>'Site\HomeController@enviarContato']);
 Route::get('/faleconosco', ['as'=>'site.faleconosco', 'uses'=>'Site\HomeController@faleConosco']);
 Route::get('/estrutura', ['as'=>'site.estrutura', 'uses'=>'Site\HomeController@estrutura']);
