@@ -58,7 +58,7 @@
 					<div class="nav d-flex-row-center active">
 						<a href="#" class="null">A Escola</a>
 					</div>
-					<div class="nav d-flex-row-center">
+					<div class="nav d-flex-row-center faleconosco">
 						<a href="{{route('site.faleconosco')}}">Fale Conosco</a>
 					</div>
 					<div class="nav d-flex-row-center relative">

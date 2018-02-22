@@ -11,7 +11,7 @@
 			  <ol class="carousel-indicators">
 			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			    <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
 			  </ol>
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
@@ -20,9 +20,9 @@
 			    <div class="carousel-item">
 			      <img class="d-block w-100" src="{{asset('img/20170815162156596.jpg')}}" alt="Second slide">
 			    </div>
-			    <div class="carousel-item">
+			    <!-- <div class="carousel-item">
 			      <img class="d-block w-100" src="{{asset('img/20170815162156596.jpg')}}" alt="Third slide">
-			    </div>
+			    </div> -->
 			  </div>
 			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -129,7 +129,7 @@
 
 		<div class="container">
 
-			<section id="sobre" class="mt-5">
+			<section id="sobre" class="mt-5 mb-5">
 
 				<div class="d-flex flex-row">
 					<div class="col-lg-7 col-xl-7">
@@ -167,10 +167,12 @@
 
 			</section>
 
+			<hr>
+
 			<section id="noticias" class="mt-5 mb-5">
 
 				<div class="d-flex flex-row">
-					<div class="col-lg-9 col-xl-9">
+					<div class="col-lg-8 col-xl-8">
 
 						<h1 class="title-on">Últimas Notícias</h1>
 
@@ -220,7 +222,7 @@
 
 					</div>
 
-					<div class="col-lg-3 col-xl-3">
+					<div class="col-lg-4 col-xl-4">
 
 						<h1 class="title-on">Facebook</h1>
 
