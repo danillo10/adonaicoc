@@ -27,6 +27,19 @@ a:link, a:hover, a:active{
 	all:unset;
 }
 
+ul{
+  color:#777;
+}
+
+.null:hover{
+  cursor: pointer;
+}
+
+.fade-social-secao .null:hover{
+  all:unset;
+  cursor: pointer;
+}
+
 .material-icons{
 	color: #b4b4b4;
 	font-size: 21px;
@@ -67,6 +80,13 @@ a:link, a:hover, a:active{
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
+}
+
+.d-flex-column-start{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .fade-social{
@@ -212,20 +232,33 @@ h1,h2,h3,h4,h5{
 h1.title-on{
 	font-size: 25px;
 	margin-bottom: 1em;
-    border-bottom-color: #f1c40f;
+  border-bottom-color: #f1c40f;
+}
+
+h4.title-on{
+  font-size: 16px;
+  margin-bottom: 1em;
+  border-bottom-color: #f1c40f;
 }
 
 h1.title-on:after{
+  left: 15px;
+}
+
+h4.title-on:after{
+  left: 0px;
+}
+
+h1.title-on:after, h4.title-on:after{
 	content: "";
-    position: absolute;
-    left: 15px;
-    width: 38px;
-    border-bottom: 2px solid #f1c40f;
-    border-bottom-color: inherit;
-    -webkit-margin-before: 1.40em;
-    -webkit-margin-after: 0.83em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+  position: absolute;
+  width: 38px;
+  border-bottom: 2px solid #f1c40f;
+  border-bottom-color: inherit;
+  -webkit-margin-before: 1.40em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
 }
 
 h1.principal{
@@ -415,14 +448,14 @@ ul.footer-2 li a:hover{
 	top: 100%;
 	right: 0;
 	background: lightgrey;
-	width: 160px auto;
+	width: 220px;
 	z-index: 2;
 	font-family: "Open Sans",sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    background-color: #fff;
-    display: none;
-    transition: all 0.5s;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #fff;
+  display: none;
+  transition: all 0.5s;
 }
 
 .sub-nav ul li a{
@@ -431,10 +464,12 @@ ul.footer-2 li a:hover{
 
 .sub-nav-3{
 	height: 124px;
+  width: auto;
+  min-width: 164px;
 }
 
 .sub-nav-2{
-	height: 30px;
+	height: 154px;
 }
 
 .sub-nav ul{
@@ -450,7 +485,7 @@ ul.footer-2 li a:hover{
 }
 
 .sub-nav ul li{
-    width: 160px;
+    width: 160px auto;
     height: 30px;
     padding: 15px 15px 15px 0px;
     text-align: right;
@@ -674,4 +709,39 @@ button.btnSend1 {
   background: #fff;
   border: 0;
   border-radius: 0;
+}
+
+.titulo-secao h1{
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  margin: 0;
+  max-width: 100%;
+  color: #616161;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.secao-site{
+  height: 40px;
+  border-bottom:1px solid #c9c9c9;
+}
+
+.title-info{
+  color: #616161;
+  font-weight: bold;
+}
+
+.info-row .title-info, .info-row a{
+  line-height: 1.5em;
+  margin:0px;
+  padding: 0;
+}
+
+.info-top, .info-bottom{
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.form-group label{
+  color:#777;
 }

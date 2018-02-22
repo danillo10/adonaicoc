@@ -14,6 +14,12 @@
 /* 
 	ROTAS DE ABERTURA DE PÁGINAS 
 */
+Route::get('/faleconosco', ['as'=>'site.faleconosco', 'uses'=>'Site\HomeController@faleConosco']);
+Route::get('/estrutura', ['as'=>'site.estrutura', 'uses'=>'Site\HomeController@estrutura']);
+Route::get('/organizacao-curricular', ['as'=>'site.organizacaocurricular', 'uses'=>'Site\HomeController@organizacaoCurricular']);
+Route::get('/fundamentacao-teorica', ['as'=>'site.fundamentacaoteorica', 'uses'=>'Site\HomeController@fundamentacaoTeorica']);
+Route::get('/filosofia', ['as'=>'site.filosofia', 'uses'=>'Site\HomeController@filosofia']);
+Route::get('/historia', ['as'=>'site.historia', 'uses'=>'Site\HomeController@historia']);
 Route::get('/contato', ['as'=>'site.contato', 'uses'=>'Site\HomeController@contato']);
 Route::get('/eventos', ['as'=>'site.eventos', 'uses'=>'Site\HomeController@eventos']);
 Route::get('/ensino-medio', ['as'=>'site.ensinomedio', 'uses'=>'Site\HomeController@ensinoMedio']);

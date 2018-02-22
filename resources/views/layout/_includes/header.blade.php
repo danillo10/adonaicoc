@@ -50,7 +50,7 @@
 
 		<div class="row topo p-0">
 			<div class="col-lg-4 col-xl-4 offset-lg-1 offset-xl-1 pl-4 d-flex flex-row align-items-center">
-				<img src="{{asset('img/LOGOADONAI.png')}}" alt="LOGOMARCA" class="logo img-fluid">
+				<a href="{{route('site.home')}}"><img src="{{asset('img/LOGOADONAI.png')}}" alt="LOGOMARCA" class="logo img-fluid"></a>
 				<!-- <img src="http://via.placeholder.com/180x50" alt="LOGOMARCA" class="logo1"> -->
 			</div>
 			<div class="col-lg-6 col-xl-6 d-flex-row-end p-0 h-100 m-0">
@@ -59,13 +59,17 @@
 						<a href="#" class="null">A Escola</a>
 					</div>
 					<div class="nav d-flex-row-center">
-						Fale Conosco
+						<a href="{{route('site.faleconosco')}}">Fale Conosco</a>
 					</div>
 					<div class="nav d-flex-row-center relative">
-						Unidades
+						A Escola
 						<div class="sub-nav sub-nav-2">
 							<ul>
-								<li>Açailândia</li>
+								<li><a href="{{route('site.historia')}}">Nossa História</a></li>
+								<li><a href="{{route('site.filosofia')}}">Filosofia</a></li>
+								<li><a href="{{route('site.estrutura')}}">Estrutura</a></li>
+								<li><a href="{{route('site.fundamentacaoteorica')}}">Fundamentação Teórica</a></li>
+								<li><a href="{{route('site.organizacaocurricular')}}">Organização Curricular</a></li>
 							</ul>
 						</div>
 					</div>

@@ -48,4 +48,46 @@ class HomeController extends Controller
 
 	}
 
+	public function historia()
+	{
+
+		return view('pagina-historia.index');
+
+	}
+
+	public function filosofia()
+	{
+
+		return view('pagina-filosofia.index');
+
+	}
+
+	public function fundamentacaoTeorica()
+	{
+
+		return view('pagina-fundamentacao-teorica.index');
+		
+	}
+
+	public function organizacaoCurricular()
+	{
+
+		return view('pagina-organizacao-curricular.index');
+		
+	}
+
+	public function estrutura()
+	{
+
+		return view('pagina-estrutura.index');
+
+	}
+
+	public function faleConosco()
+	{
+
+		return view('pagina-faleconosco.index');
+
+	}
+
 }

@@ -21,7 +21,7 @@
 			      <img class="d-block w-100" src="{{asset('img/20170815162156596.jpg')}}" alt="Second slide">
 			    </div>
 			    <div class="carousel-item">
-			      <img class="d-block w-100" src="{{asset('img/20170815162129100.jpg')}}" alt="Third slide">
+			      <img class="d-block w-100" src="{{asset('img/20170815162156596.jpg')}}" alt="Third slide">
 			    </div>
 			  </div>
 			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -145,12 +145,12 @@
 						<p class="geral text-justify">
 						Na leitura dessa produção, constata-se a elaboração conjunta, a preocupação com o processo educativo, visando:</p>
 						<ul style="color:#777">
-						<li>Concorrer para a construção do caráter baseado nos princípios bíblico-cristãos;</li>
-						<li>O dinamismo da realidade;</li> 
-						<li>A produção conjunta e a socialização do saber situado no tempo e no espaço;</li>
-						<li>O respeito ao direito fundamental das pessoas;</li>
-						<li>O desenvolvimento do senso crítico e pensamento reflexivo;</li>
-						<li>O cultivo da dimensão transcendental e religiosa.</li>
+							<li>Concorrer para a construção do caráter baseado nos princípios bíblico-cristãos;</li>
+							<li>O dinamismo da realidade;</li> 
+							<li>A produção conjunta e a socialização do saber situado no tempo e no espaço;</li>
+							<li>O respeito ao direito fundamental das pessoas;</li>
+							<li>O desenvolvimento do senso crítico e pensamento reflexivo;</li>
+							<li>O cultivo da dimensão transcendental e religiosa.</li>
 						</ul>
 						<p class="geral text-justify">Os conjuntos das proposições aqui expressas pretendem responder às necessidades vigentes e criar uma prática pedagógica altamente organizada, que garanta o respeito às diversidades culturais, regionais, étnicas, religiosas e políticas, que existem numa sociedade múltipla e complexa, objetivando a igualdade de direitos entre todos de acordo com os princípios democráticos.
 						Portanto, o Instituto Educacional Adonai através do Projeto Político Pedagógico, deseja contemplar um ensino contextualizado e comprometido com o resgate de valores fundamentais. Logo, a sua elaboração contou com a participação de pais, alunos, professores, coordenadores e diretores, os quais acumularam durante anos sonhos, desejos de crescimento e reconhecimento, o que nos posibilitou sistematizar o conhecimento e traçar caminhos reais para a realização destes ideais.
