@@ -38,7 +38,7 @@
 					Assim que possível estaremos respondendo, pois sua mensagem sempre é bem vinda!
 				</p>
 
-				<form method="POST" action="/contact">
+				<form method="POST" action="/enviar-contato">
 					{{ csrf_field() }} 
 					<div class="form-group">
 					    <label for="nome"><b>Seu nome</b></label>
@@ -57,7 +57,7 @@
 					    <label for="mensagem"><b>Mensagem</b></label>
 					    <textarea class="form-control" id="mensagem" rows="5" name="message" required></textarea>
 					</div>
-					<button type="submit" class="btn btn-warning btn-sm sendMail" style="color:#fff">Enviar</button>
+					<button type="submit" class="btn btn-warning btn-sm" style="color:#fff">Enviar</button>
 				</form>
 			</div>
 		</div>
