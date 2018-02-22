@@ -40,7 +40,7 @@
  			</div>
  			<div class="col-lg-5 col-xl-5 d-flex-row-end h-100">
 	 			<a href="#" class="null h-100 relative d-flex-row-center twitter" target="_blank"><i class="fab fa-twitter text-center"></i><span class="fade-social fade-social-twitter"></span></a>
-				<a href="#" class="null h-100 relative d-flex-row-center facebook" target="_blank"><i class="fab fa-facebook-f text-center"></i><span class="fade-social fade-social-facebook"></span></a>
+				<a href="https://www.facebook.com/Adonai-Coc-276378852736800/" class="null h-100 relative d-flex-row-center facebook" target="_blank"><i class="fab fa-facebook-f text-center"></i><span class="fade-social fade-social-facebook"></span></a>
 				<a href="#" class="null h-100 relative d-flex-row-center in" target="_blank"><i class="fab fa-linkedin-in text-center"></i><span class="fade-social fade-social-in"></span></a>
 				<a href="#" class="null h-100 relative d-flex-row-center p" target="_blank"><i class="fab fa-pinterest-p text-center"></i><span class="fade-social fade-social-p"></span></a>
 				<a href="#" class="null h-100 relative d-flex-row-center rss" target="_blank"><i class="fas fa-rss text-center"></i><span class="fade-social fade-social-rss"></span></a>

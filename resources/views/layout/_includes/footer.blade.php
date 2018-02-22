@@ -2,7 +2,7 @@
 		<div class="footer-bottom">
 			<div class="container d-flex flex-row mt-3">
 				<div class="col-lg-3 col-xl-3 p-0">
-					<img src="http://via.placeholder.com/200x100" alt="LOGOMARCA" class="logo">
+					<img src="{{asset('img/LOGOADONAIBRANDO.png')}}" alt="LOGOMARCA" class="logo">
 
 					<ul class="footer p-0">
 						<li>Educação Infantil</li>
@@ -25,10 +25,9 @@
 					<h6 class="title">Últimos Tópicos</h6>
 
 					<ul class="footer-2 p-0">
-						<li class="news"><a href="#">Manifesto Institucional COC by Pearson</a></li>
-						<li class="news"><a href="#">Manifesto Institucional COC by Pearson</a></li>
-						<li class="news"><a href="#">Manifesto Institucional COC by Pearson</a></li>
-						<li class="news"><a href="#">Manifesto Institucional COC by Pearson</a></li>
+						<li class="news"><a href="http://www.coc.com.br/noticias/como-inovar-nas-aulas-de-ciencias-com-tecnologias-digitais" target="_blank">Como inovar nas aulas de ciências com tecnologias digitais</a></li>
+						<li class="news"><a href="http://www.coc.com.br/noticias/4-atitudes-que-voce-precisa-tomar-para-fazer-seu-tempo-de-estudos-render" target="_blank">4 Atitudes que você precisa tomar para fazer seu tempo de estudos render</a></li>
+						<li class="news"><a href="http://www.coc.com.br/noticias/como-se-preparar-para-apresentar-trabalhos-na-sala-de-aula" target="_blank">Como se preparar para apresentar trabalhos na sala de aula</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-3 col-xl-3">
@@ -51,7 +50,7 @@
 				</div>
 				<div class="col-lg-3 col-xl-3 d-flex flex-row">
 					<a class="fb" href="#"><i class="fab fa-twitter"></i></a>
-					<a class="fb" href="#"><i class="fab fa-facebook-f"></i></a>
+					<a class="fb" href="https://www.facebook.com/Adonai-Coc-276378852736800/" target="_blank"><i class="fab fa-facebook-f"></i></a>
 					<a class="fb" href="#"><i class="fab fa-linkedin-in"></i></a>
 					<a class="fb" href="#"><i class="fab fa-pinterest-p"></i></a>
 					<a class="fb" href="#"><i class="fas fa-rss"></i></a>

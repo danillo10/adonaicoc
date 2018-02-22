@@ -179,43 +179,43 @@
 						<div class="d-flex flex-row justify-content-start">	
 							<div class="card">
 								<div class="card-img">
-									<img class="img-fluid" src="{{asset('img/1.jpg')}}">
+									<img class="img-fluid" src="{{asset('img/001.jpg')}}">
 								</div>
 								<div class="card-content p-2">
-									<h4 class="card-title">Manifesto Institucional COC by Pearson</h4>
-									<span class="date-notice">20 de fevereiro de 2018 | in <a href="#">Blog</a></span>
-									Praesent porttitor, nulla vitae posuere iaculis, arcu nisl dignissim dolor, a pretium mi sem ut ipsum.
+									<h4 class="card-title">Como inovar nas aulas de ciências com tecnologias digitais</h4>
+									<span class="date-notice">22 de fevereiro de 2018 | in <a href="http://www.coc.com.br/noticias/como-inovar-nas-aulas-de-ciencias-com-tecnologias-digitais" target="_blank">Coc</a></span>
+									As aulas de ciências são uma das melhores oportunidades para inovação na escola. A disciplina já possui um carácter experimental, partindo disso é possível engajar os alunos...
 								</div>
 								<div class="vejamais text-right pr-2 pt-2">
-									<a href="" class="btn btn-warning btn-sm">Leia mais</a>
+									<a href="http://www.coc.com.br/noticias/como-inovar-nas-aulas-de-ciencias-com-tecnologias-digitais" target="_blank" class="btn btn-warning btn-sm">Leia mais</a>
 								</div>
 							</div>
 
 							<div class="card ml-4">
 								<div class="card-img">
-									<img class="img-fluid" src="{{asset('img/2.jpg')}}">
+									<img class="img-fluid" src="{{asset('img/002.jpg')}}">
 								</div>
 								<div class="card-content p-2">
-									<h4 class="card-title">Manifesto Institucional COC by Pearson</h4>
-									<span class="date-notice">20 de fevereiro de 2018 | in <a href="#">Blog</a></span>
-									Praesent porttitor, nulla vitae posuere iaculis, arcu nisl dignissim dolor, a pretium mi sem ut ipsum.
+									<h4 class="card-title">4 Atitudes que você precisa tomar para fazer seu tempo de estudos render</h4>
+									<span class="date-notice">20 de fevereiro de 2018 | in <a href="http://www.coc.com.br/noticias/4-atitudes-que-voce-precisa-tomar-para-fazer-seu-tempo-de-estudos-render" target="_blank">Coc</a></span>
+									Na hora de estudar, muitos alunos enfrentam problemas para se concentrar e não fazem o que precisam no tempo determinado – o que frustra muitos jovens no final do dia...
 								</div>
 								<div class="vejamais text-right pr-2 pt-2">
-									<a href="" class="btn btn-warning btn-sm">Leia mais</a>
+									<a href="http://www.coc.com.br/noticias/4-atitudes-que-voce-precisa-tomar-para-fazer-seu-tempo-de-estudos-render"  target="_blank" class="btn btn-warning btn-sm">Leia mais</a>
 								</div>
 							</div>
 
 							<div class="card ml-4">
 								<div class="card-img">
-									<img class="img-fluid" src="{{asset('img/3.jpg')}}">
+									<img class="img-fluid" src="{{asset('img/003.jpg')}}">
 								</div>
 								<div class="card-content p-2">
-									<h4 class="card-title">Manifesto Institucional COC by Pearson</h4>
-									<span class="date-notice">20 de fevereiro de 2018 | in <a href="#">Blog</a></span>
-									Praesent porttitor, nulla vitae posuere iaculis, arcu nisl dignissim dolor, a pretium mi sem ut ipsum.
+									<h4 class="card-title">Como se preparar para apresentar trabalhos na sala de aula</h4>
+									<span class="date-notice">20 de fevereiro de 2018 | in <a href="http://www.coc.com.br/noticias/como-se-preparar-para-apresentar-trabalhos-na-sala-de-aula" target="_blank">Coc</a></span>
+									Apresentar um trabalho para todos os colegas ou quem sabe até um público maior não é tão simples. Uma das vantagens da escola é que você estará na frente de pessoas que conhece e está habituado...
 								</div>
 								<div class="vejamais text-right pr-2 pt-2">
-									<a href="" class="btn btn-warning btn-sm">Leia mais</a>
+									<a href="http://www.coc.com.br/noticias/como-se-preparar-para-apresentar-trabalhos-na-sala-de-aula" target="_blank" class="btn btn-warning btn-sm">Leia mais</a>
 								</div>
 							</div>
 						</div>
