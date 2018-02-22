@@ -35,6 +35,8 @@ $fields = array(
 	)
 );
 
+return json_encode($fields);
+
 $message = '';
 
 foreach($fields as $field) {
