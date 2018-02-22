@@ -38,7 +38,7 @@
 					Assim que possível estaremos respondendo, pois sua mensagem sempre é bem vinda!
 				</p>
 
-				<form method="POST" action="/enviar-contato">
+				<form method="POST" action="{{route('site.enviarcontato')}}">
 					{{ csrf_field() }} 
 					<div class="form-group">
 					    <label for="nome"><b>Seu nome</b></label>
