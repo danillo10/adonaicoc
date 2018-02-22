@@ -35,8 +35,6 @@ $fields = array(
 	)
 );
 
-return json_encode($fields);
-
 $message = '';
 
 foreach($fields as $field) {
@@ -66,7 +64,7 @@ try {
 	//$mail->AddBCC('person4@domain.com', 'Person 4');         // Add a "Bcc" address. 
 
 	$mail->SetFrom($email, $_POST['name']);
-	$mail->AddReplyTo($_POST['email'], $_POST['name']);
+	//$mail->AddReplyTo($_POST['email'], $_POST['name']);
 
 	$mail->IsHTML(true);                                  // Set email format to HTML
 

@@ -14,6 +14,10 @@
 /* 
 	ROTAS DE ABERTURA DE PÁGINAS 
 */
+
+Route::get('/contact', 'ContactController@show');
+Route::post('/contact',  'ContactController@mailToAdmin');
+
 Route::get('/faleconosco', ['as'=>'site.faleconosco', 'uses'=>'Site\HomeController@faleConosco']);
 Route::get('/estrutura', ['as'=>'site.estrutura', 'uses'=>'Site\HomeController@estrutura']);
 Route::get('/organizacao-curricular', ['as'=>'site.organizacaocurricular', 'uses'=>'Site\HomeController@organizacaoCurricular']);

@@ -2,7 +2,7 @@
 		<div class="footer-bottom">
 			<div class="container d-flex flex-row mt-3">
 				<div class="col-lg-3 col-xl-3 p-0">
-					<img src="{{asset('img/LOGOADONAIBRANDO.png')}}" alt="LOGOMARCA" class="logo">
+					<img src="{{asset('img/LOGOADONAIBRANDO2.png')}}" alt="LOGOMARCA" class="logo">
 
 					<ul class="footer p-0">
 						<li>Educação Infantil</li>

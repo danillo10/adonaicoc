@@ -38,25 +38,26 @@
 					Assim que possível estaremos respondendo, pois sua mensagem sempre é bem vinda!
 				</p>
 
-				<form>
-				  <div class="form-group">
-				    <label for="nome"><b>Seu nome</b></label>
-				    <input type="text" class="form-control" id="nome" aria-describedby="emailHelp" name="name" required>
-				    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
-				  </div>
-				  <div class="form-group">
-				    <label for="email"><b>Seu e-mail</b></label>
-				    <input type="email" class="form-control" id="email" name="email" required>
-				  </div>
-				  <div class="form-group">
-				    <label for="assunto"><b>Assunto</b></label>
-				    <input type="text" class="form-control" id="assunto" name="subject" required>
-				  </div>
-				  <div class="form-group">
-				    <label for="mensagem"><b>Mensagem</b></label>
-				    <textarea class="form-control" id="mensagem" rows="5" name="message" required></textarea>
-				  </div>
-				  <button type="button" class="btn btn-warning btn-sm sendMail" style="color:#fff">Enviar</button>
+				<form method="POST" action="/contact">
+					{{ csrf_field() }} 
+					<div class="form-group">
+					    <label for="nome"><b>Seu nome</b></label>
+					    <input type="text" class="form-control" id="nome" aria-describedby="emailHelp" name="name" required>
+					    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+					</div>
+					<div class="form-group">
+					    <label for="email"><b>Seu e-mail</b></label>
+					    <input type="email" class="form-control" id="email" name="email" required>
+					</div>
+					<div class="form-group">
+					    <label for="assunto"><b>Assunto</b></label>
+					    <input type="text" class="form-control" id="assunto" name="subject" required>
+					</div>
+					<div class="form-group">
+					    <label for="mensagem"><b>Mensagem</b></label>
+					    <textarea class="form-control" id="mensagem" rows="5" name="message" required></textarea>
+					</div>
+					<button type="submit" class="btn btn-warning btn-sm sendMail" style="color:#fff">Enviar</button>
 				</form>
 			</div>
 		</div>
