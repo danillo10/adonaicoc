@@ -158,8 +158,10 @@
 
 					</div>
 
-					<div class="col-lg-5 col-xl-5 d-flex flex-row justify-content-center align-items-center">
-						<img src="{{asset('img/coc01.png')}}">
+					<div class="col-lg-5 col-xl-5 d-flex flex-column justify-content-between align-items-center">
+						<img src="{{asset('img/foto1.jpg')}}" class="img-fluid">
+						<img src="{{asset('img/foto4.jpg')}}" class="img-fluid">
+						<img src="{{asset('img/foto5.jpg')}}" class="img-fluid">
 					</div>
 				</div>
 

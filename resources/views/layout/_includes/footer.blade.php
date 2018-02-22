@@ -35,10 +35,10 @@
 					<h6 class="title">Links Rápidos</h6>
 
 					<ul class="footer-2 p-0">
-						<li class="news"><a href="#">Portal Coc</a></li>
+						<li class="news"><a href="http://www.coc.com.br">Portal Coc</a></li>
 						<li class="news"><a href="#">Agenda Digital</a></li>
 						<li class="news"><a href="#"><a href="http://186.193.186.244:8088/sg_web/Acesso.aspx?escola=4242" target="_blank">Diário Eletrônico</a></a></li>
-						<li class="news"><a href="#">E-mail do Aluno</a></li>
+						<li class="news"><a href="http://webmail.adonaicoc.com.br">Webmail</a></li>
 					</ul>
 				</div>
 			</div>

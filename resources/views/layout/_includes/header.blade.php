@@ -22,10 +22,6 @@
 	<!-- Estilo -->
 	<link href="css/style.css" rel="stylesheet">
 
-	<script>
-		alert("Site em construção!");
-	</script>
-
 </head>
 <body>
 
@@ -77,10 +73,10 @@
 						Links
 						<div class="sub-nav sub-nav-3">
 							<ul>
-								<li>Portal Coc</li>
+								<li><a href="http://www.coc.com.br" target="_blank">Portal Coc</a></li>
 								<li>Agenda Digital</li>
 								<li><a href="http://186.193.186.244:8088/sg_web/Acesso.aspx?escola=4242" target="_blank">Diário Eletrônico</a></li>
-								<li>Webmail</li>
+								<li><a href="http://webmail.adonaicoc.com.br">Webmail</a></li>
 							</ul>
 						</div>
 					</div>

@@ -18,8 +18,9 @@ body{
 	color: yellow;
 }
 
-a:link, a:hover{
+a:link, a:hover, a:active{
 	text-decoration: none;
+	cursor: pointer;
 }
 
 .null{
@@ -424,6 +425,10 @@ ul.footer-2 li a:hover{
     transition: all 0.5s;
 }
 
+.sub-nav ul li a{
+	color:#333;
+}
+
 .sub-nav-3{
 	height: 124px;
 }
@@ -469,6 +474,10 @@ ul.footer-2 li a:hover{
 	color: #fff;
 	padding-right: 5px;
 	border-left: 5px solid #4267B2	;
+}
+
+.sub-nav ul li:hover a{
+	color:#fff;
 }
 
 .sub-slider{
