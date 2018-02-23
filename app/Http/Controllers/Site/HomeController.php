@@ -10,8 +10,6 @@ use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\Contato;
 
-use Mail;
-
 class HomeController extends Controller
 {
     
@@ -100,7 +98,7 @@ class HomeController extends Controller
 	public function enviarContato(Request $request)
 	{
 
-		Mail::to('contato@adonaicoc.com.br')->send();
+		Mail::to($request->email)->send(new Contato);
 
 		$errors = new MessageBag(['mensagem' => ['E-mail enviado com sucesso.']]);
 		return Redirect::back()->withErrors($errors)->withInput(Input::except('mensagem'));
