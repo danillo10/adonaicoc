@@ -15,7 +15,7 @@ return [
     */
 
     'mailgun' => [
-        'domain' => env('www.adonaicoc.com.br'),
+        'domain' => env('sandboxe84cf586bdaf43e2a41a4e965641cdf9.mailgun.org'),
         'secret' => env('key-56ba81e6038d52af3f9b60e13f1ebd3d'),
     ],
 
