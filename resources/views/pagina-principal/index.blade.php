@@ -38,13 +38,13 @@
 
 		<section class="sub-slider">
 			<div class="row h-100">
-				<div class="col-md-4 col-lg-4 col-xl-4 d-flex-row-end">
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex-row-end">
 					EDUCAÇÃO INFANTIL 
 				</div>
-				<div class="col-md-4 col-lg-4 col-xl-4 d-flex-row-center">
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex-row-center">
 					ENSINO FUNDAMENTAL
 				</div>
-				<div class="col-md-4 col-lg-4 col-xl-4 d-flex-row-start">
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex-row-start">
 					ENSINO MÉDIO
 				</div>
 			</div>
@@ -132,7 +132,7 @@
 			<section id="sobre" class="mt-5 mb-5">
 
 				<div class="d-flex flex-row flex-wrap">
-					<div class="col-md-12 col-lg-7 col-xl-7">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
 
 						<h1 class="title-on">Desde 1998</h1>
 
@@ -158,7 +158,7 @@
 
 					</div>
 
-					<div class="col-md-12 col-lg-5 col-xl-5 d-flex flex-column justify-content-between align-items-center desktop">
+					<div class="col-xs-12 col-md-12 col-lg-5 col-xl-5 d-flex flex-column justify-content-between align-items-center desktop">
 						<img src="{{asset('img/foto1.jpg')}}" class="img-fluid">
 						<img src="{{asset('img/foto4.jpg')}}" class="img-fluid">
 						<img src="{{asset('img/foto5.jpg')}}" class="img-fluid">
@@ -169,6 +169,18 @@
 						<div class="col-md-4"><img src="{{asset('img/foto4.jpg')}}" class="img-fluid"></div>
 						<div class="col-md-4"><img src="{{asset('img/foto5.jpg')}}" class="img-fluid"></div>
 					</div>
+
+					<div class="col-md-12 col-lg-5 col-xl-5 d-flex-column-center mobile">
+						<div class="col-md-12 m-1"><img src="{{asset('img/foto1.jpg')}}" class="img-fluid"></div>
+						<div class="col-md-12 m-1"><img src="{{asset('img/foto4.jpg')}}" class="img-fluid"></div>
+						<div class="col-md-12 m-1"><img src="{{asset('img/foto5.jpg')}}" class="img-fluid"></div>
+					</div>
+
+					<div class="col-md-12 col-lg-5 col-xl-5 d-flex-column-center x-mobile">
+						<div class="col-md-12 m-1"><img src="{{asset('img/foto1.jpg')}}" class="img-fluid"></div>
+						<div class="col-md-12 m-1"><img src="{{asset('img/foto4.jpg')}}" class="img-fluid"></div>
+						<div class="col-md-12 m-1"><img src="{{asset('img/foto5.jpg')}}" class="img-fluid"></div>
+					</div>
 				</div>
 
 			</section>
@@ -177,12 +189,12 @@
 
 			<section id="noticias" class="mt-5 mb-5">
 
-				<div class="d-flex flex-row">
-					<div class="col-md-8 col-lg-8 col-xl-8">
+				<div class="d-flex flex-row flex-wrap">
+					<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
 
 						<h1 class="title-on">Últimas Notícias</h1>
 
-						<div class="d-flex flex-row justify-content-start">	
+						<div class="d-flex flex-row justify-content-start x-outmobile">
 							<div class="card">
 								<div class="card-img">
 									<img class="img-fluid" src="{{asset('img/001.jpg')}}">
@@ -226,9 +238,61 @@
 							</div>
 						</div>
 
+						<div class="d-flex flex-column justify-content-start x-mobile p-0">
+							<div class="card">
+								<div class="card-img">
+									<img class="img-fluid" src="{{asset('img/001.jpg')}}">
+								</div>
+								<div class="card-content p-2">
+									<h4 class="card-title">Como inovar nas aulas de ciências com tecnologias digitais</h4>
+									<span class="date-notice">22 de fevereiro de 2018 | in <a href="http://www.coc.com.br/noticias/como-inovar-nas-aulas-de-ciencias-com-tecnologias-digitais" target="_blank">Coc</a></span>
+									As aulas de ciências são uma das melhores oportunidades para inovação na escola. A disciplina já possui um carácter experimental, partindo disso é possível engajar os alunos...
+								</div>
+								<div class="vejamais text-right pr-2 pt-2">
+									<a href="http://www.coc.com.br/noticias/como-inovar-nas-aulas-de-ciencias-com-tecnologias-digitais" target="_blank" class="btn btn-warning btn-sm">Leia mais</a>
+								</div>
+							</div>
+
+							<div class="card mt-4">
+								<div class="card-img">
+									<img class="img-fluid" src="{{asset('img/002.jpg')}}">
+								</div>
+								<div class="card-content p-2">
+									<h4 class="card-title">4 Atitudes que você precisa tomar para fazer seu tempo de estudos render</h4>
+									<span class="date-notice">20 de fevereiro de 2018 | in <a href="http://www.coc.com.br/noticias/4-atitudes-que-voce-precisa-tomar-para-fazer-seu-tempo-de-estudos-render" target="_blank">Coc</a></span>
+									Na hora de estudar, muitos alunos enfrentam problemas para se concentrar e não fazem o que precisam no tempo determinado – o que frustra muitos jovens no final do dia...
+								</div>
+								<div class="vejamais text-right pr-2 pt-2">
+									<a href="http://www.coc.com.br/noticias/4-atitudes-que-voce-precisa-tomar-para-fazer-seu-tempo-de-estudos-render"  target="_blank" class="btn btn-warning btn-sm">Leia mais</a>
+								</div>
+							</div>
+
+							<div class="card mt-4">
+								<div class="card-img">
+									<img class="img-fluid" src="{{asset('img/003.jpg')}}">
+								</div>
+								<div class="card-content p-2">
+									<h4 class="card-title">Como se preparar para apresentar trabalhos na sala de aula</h4>
+									<span class="date-notice">20 de fevereiro de 2018 | in <a href="http://www.coc.com.br/noticias/como-se-preparar-para-apresentar-trabalhos-na-sala-de-aula" target="_blank">Coc</a></span>
+									Apresentar um trabalho para todos os colegas ou quem sabe até um público maior não é tão simples. Uma das vantagens da escola é que você estará na frente de pessoas que conhece e está habituado...
+								</div>
+								<div class="vejamais text-right pr-2 pt-2">
+									<a href="http://www.coc.com.br/noticias/como-se-preparar-para-apresentar-trabalhos-na-sala-de-aula" target="_blank" class="btn btn-warning btn-sm">Leia mais</a>
+								</div>
+							</div>
+						</div>
+
 					</div>
 
-					<div class="col-md-4 col-lg-4 col-xl-4">
+					<div class="col-sm-12 mobile mt-4">
+						<hr>
+					</div>
+
+					<div class="col-sm-12 x-mobile mt-4">
+						<hr>
+					</div>		
+
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
 
 						<h1 class="title-on fb">Facebook</h1>
 
@@ -243,12 +307,12 @@
 
 		<section class="informativo pb-5 pt-1">
 			<div class="container">
-				<div class="mt-5 d-flex flex-row justify-content-start pt-2 pl-5 pr-5">
-					<div class="col-md-10 col-lg-10 col-xl-10">
+				<div class="mt-5 d-flex flex-row justify-content-start pt-2 pl-5 pr-5 flex-wrap">
+					<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
 						<h2>Conheça o Enem</h2>
 						<p>O Exame Nacional do Ensino Médio é uma prova realizada pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira, autarquia vinculada ao Ministério da Educação do Brasil, e foi criada em 1998. Ela é utilizada para avaliar a qualidade do ensino médio no país. Seu resultado serve para acesso ao ensino superior em universidades públicas brasileiras, através do Sistema de Seleção Unificada (SiSU), assim como em algumas universidades no exterior.</p>
 					</div>
-					<div class="col-md-2 col-lg-2 col-xl-2 d-flex flex-row justify-content-center align-items-center">	
+					<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 d-flex flex-row justify-content-center align-items-center">	
 						<a href="https://enem.inep.gov.br/" target="_blank" class="btn btn-outline-light btn-lg">Acesse agora!</a>
 					</div>
 				</div>

@@ -26,8 +26,8 @@
 <body>
 
 	<div class="container-fluid p-0">
- 		<div class="row-social w-100 d-flex flex-row justify-content-end align-items-center pr-5">
- 			<div class="col-md-9 col-lg-6 col-xl-6 offset-lg-1 offset-xl-1 d-flex">
+ 		<div class="row-social w-100 d-flex flex-row justify-content-end align-items-center">
+ 			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-6 col-xl-6 offset-lg-1 offset-xl-1 d-flex outmobile x-outmobile">
  				<div class="d-flex-row-center">
  					<i class="material-icons">phone</i>&nbsp;<span class="tel"><a href="tel:+559935920017">(99) 3592-0017</a></span>
  				</div>
@@ -38,7 +38,7 @@
 					<i class="fas fa-home pl-3"></i>&nbsp;<span>Rua São Francisco, 12 QD 13, Açailândia - MA</span>
 				</div>
  			</div>
- 			<div class="col-md-3 col-lg-5 col-xl-5 d-flex-row-end h-100">
+ 			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-5 col-xl-5 d-flex-row-end h-100">
 	 			<a href="#" class="null h-100 relative d-flex-row-center twitter" target="_blank"><i class="fab fa-twitter text-center"></i><span class="fade-social fade-social-twitter"></span></a>
 				<a href="https://www.facebook.com/Adonai-Coc-276378852736800/" class="null h-100 relative d-flex-row-center facebook" target="_blank"><i class="fab fa-facebook-f text-center"></i><span class="fade-social fade-social-facebook"></span></a>
 				<a href="#" class="null h-100 relative d-flex-row-center in" target="_blank"><i class="fab fa-linkedin-in text-center"></i><span class="fade-social fade-social-in"></span></a>
@@ -49,11 +49,11 @@
  		</div>
 
 		<div class="row topo p-0">
-			<div class="col-md-4 col-lg-4 col-xl-4 offset-md-1 offset-lg-1 offset-xl-1 pl-4 d-flex flex-row align-items-center">
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 offset-sm-1 offset-md-1 offset-lg-1 offset-xl-1 pl-4 d-flex flex-row align-items-center">
 				<a href="{{route('site.home')}}"><img src="{{asset('img/LOGOADONAI.png')}}" alt="LOGOMARCA" class="logo img-fluid"></a>
 				<!-- <img src="http://via.placeholder.com/180x50" alt="LOGOMARCA" class="logo1"> -->
 			</div>
-			<div class="col-md-6 col-lg-6 col-xl-6 d-flex-row-end p-0 h-100 m-0">
+			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 d-flex-row-end p-0 h-100 m-0 x-outmobile">
 				<nav class="w-100 h-100 d-flex-row-end">
 					<div class="nav d-flex-row-center active p-3">
 						<a href="#" class="null">Unidades</a>
@@ -86,7 +86,11 @@
 					</div>
 				</nav>
 			</div>
-			<div class="col-lg-1 col-xl-1"></div>
+
+			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 d-flex-row-end p-0 h-100 m-0 x-mobile">
+				
+			</div>
+			<div class="col-xs-0 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
 		</div>
 
 		
