@@ -28,7 +28,7 @@ class Contato extends Mailable
      */
     public function build()
     {
-        return $this->from('contato@adonai.com.br') 
+        return $this->from('contato@adonaicoc.com.br') 
                ->view('emails.contato');
     }
 }
