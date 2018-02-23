@@ -157,22 +157,22 @@ ul{
 
 .font1{
 	font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
-    speak: none;
-    text-decoration: inherit;
-    margin-right: .2em;
-    text-align: center;
-    opacity: .98; 
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1em;
-    margin-left: .2em;
-    /* font-size: 120%; */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color:#777;
-    text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); 
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: inherit;
+  margin-right: .2em;
+  text-align: center;
+  opacity: .98; 
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em;
+  /* font-size: 120%; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color:#777;
+  text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); 
 }
 
 .topo{
@@ -197,11 +197,11 @@ nav .nav{
 
 nav .nav a, nav .nav{
 	font-family: "Open Sans",sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    transition: all 0.5s;
-    cursor: pointer;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 
 nav .nav:hover, nav .nav a:hover{
@@ -224,13 +224,13 @@ nav .nav.active{
 
 h1,h2,h3,h4,h5{
 	font-family: Roboto,sans-serif;
-    font-weight: 400;
-    color: #777;
-    line-height: 1.45;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); 
-    opacity: .98;
+  font-weight: 400;
+  color: #777;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); 
+  opacity: .98;
 }
 
 h1.title-on{
@@ -661,11 +661,11 @@ ul.footer-2 li a:hover{
 }
 
 .card1 .front1 {
-  background: #096AA3;
+  background: #314E88;
 }
 
 .card1 .back1 {
-  background: #03446A;
+  background: #314E88;
   -webkit-transform: rotateY( 180deg );
   -moz-transform: rotateY( 180deg );
   -o-transform: rotateY( 180deg );
@@ -673,19 +673,19 @@ ul.footer-2 li a:hover{
 }
 
 .container1:first-child .card1 .front1 {
-  background: #228653;
+  background: #096AA3;
 }
 
 .container1:first-child .card1 .back1 {
-  background: #007539;
+  background: #03446A;
 }
 
 .container1:last-child .card1 .front1{
-	background-color: #df4932;
+	background-color: #03446A;
 }
 
 .container1:last-child .card1 .back1{
-	background: #c0341e;
+	background: #096AA3;
 }
 
 .cardTitle1 {
