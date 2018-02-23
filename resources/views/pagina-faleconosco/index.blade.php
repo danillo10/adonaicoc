@@ -6,18 +6,18 @@
 
 <div class="container-fluid">
 	<div class="row secao-site">
-		<div class="col-lg-1 col-xl-1"></div>
-		<div class="col-lg-8 col-xl-8 p-0 d-flex-row-start">
+		<div class="col-md-1 col-lg-1 col-xl-1"></div>
+		<div class="col-md-8 col-lg-8 col-xl-8 p-0 d-flex-row-start">
 			<div class="titulo-secao">
 				<h1>Fale Conosco</h1>
 			</div>
 		</div>
-		<div class="col-lg-2 col-xl-2">
+		<div class="col-md-2 col-lg-2 col-xl-2">
 			<div class="titulo-secao">
 				
 			</div>
 		</div>
-		<div class="col-lg-1 col-xl-1"></div>
+		<div class="col-md-1 col-lg-1 col-xl-1"></div>
 	</div>
 </div>
 
@@ -28,7 +28,7 @@
 </div>
 <div class="container">
 	<div class="row mt-4 mb-4">
-		<div class="col-lg-6 col-xl-6">
+		<div class="col-md-8 col-lg-6 col-xl-6">
 			<div class="content">
 				<h4>Contato</h4>
 
@@ -61,7 +61,7 @@
 				</form>
 			</div>
 		</div>
-		<div class="col-lg-5 col-xl-5 pt-2 pl-0 offset-lg-1 offset-xl-1">
+		<div class="col-md-4 col-lg-5 col-xl-5 pt-2 pl-0 offset-lg-1 offset-xl-1">
 			<div class="info-top">
 				<h4 class="title-on">Informações de Contato</h4>
 

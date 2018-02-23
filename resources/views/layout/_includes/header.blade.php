@@ -29,10 +29,10 @@
  		<div class="row-social w-100 d-flex flex-row justify-content-end align-items-center pr-5">
  			<div class="col-md-9 col-lg-6 col-xl-6 offset-lg-1 offset-xl-1 d-flex">
  				<div class="d-flex-row-center">
- 					<i class="material-icons">phone</i>&nbsp;<span class="tel">(99) 3592-0017</span>
+ 					<i class="material-icons">phone</i>&nbsp;<span class="tel"><a href="tel:+559935920017">(99) 3592-0017</a></span>
  				</div>
  				<div class="d-flex-row-center">
- 					<i class="fas fa-envelope pl-3"></i>&nbsp;<span>contato@adonaicoc.com.br</span>
+ 					<i class="fas fa-envelope pl-3"></i>&nbsp;<span><a href="mailto:contato@adonaicoc.com.br">contato@adonaicoc.com.br</a></span>
 				</div>
 				<div class="d-flex-row-center">
 					<i class="fas fa-home pl-3"></i>&nbsp;<span>Rua São Francisco, 12 QD 13, Açailândia - MA</span>
@@ -55,13 +55,13 @@
 			</div>
 			<div class="col-md-6 col-lg-6 col-xl-6 d-flex-row-end p-0 h-100 m-0">
 				<nav class="w-100 h-100 d-flex-row-end">
-					<div class="nav d-flex-row-center active">
+					<div class="nav d-flex-row-center active p-3">
 						<a href="#" class="null">Unidades</a>
 					</div>
-					<div class="nav d-flex-row-center faleconosco">
+					<div class="nav d-flex-row-center faleconosco p-3">
 						<a href="{{route('site.faleconosco')}}" class="fc">Fale Conosco</a>
 					</div>
-					<div class="nav d-flex-row-center relative">
+					<div class="nav d-flex-row-center relative p-3">
 						<span>A Escola</span>
 						<div class="sub-nav sub-nav-2">
 							<ul>
@@ -73,7 +73,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="nav d-flex-row-center relative">
+					<div class="nav d-flex-row-center relative p-3">
 						<span>Links</span>
 						<div class="sub-nav sub-nav-3">
 							<ul>

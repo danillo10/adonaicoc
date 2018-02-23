@@ -244,11 +244,11 @@
 		<section class="informativo pb-5 pt-1">
 			<div class="container">
 				<div class="mt-5 d-flex flex-row justify-content-start pt-2 pl-5 pr-5">
-					<div class="col-lg-10 col-xl-10">
+					<div class="col-md-10 col-lg-10 col-xl-10">
 						<h2>Conheça o Enem</h2>
 						<p>O Exame Nacional do Ensino Médio é uma prova realizada pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira, autarquia vinculada ao Ministério da Educação do Brasil, e foi criada em 1998. Ela é utilizada para avaliar a qualidade do ensino médio no país. Seu resultado serve para acesso ao ensino superior em universidades públicas brasileiras, através do Sistema de Seleção Unificada (SiSU), assim como em algumas universidades no exterior.</p>
 					</div>
-					<div class="col-lg-2 col-xl-2 d-flex flex-row justify-content-center align-items-center">	
+					<div class="col-md-2 col-lg-2 col-xl-2 d-flex flex-row justify-content-center align-items-center">	
 						<a href="https://enem.inep.gov.br/" target="_blank" class="btn btn-outline-light btn-lg">Acesse agora!</a>
 					</div>
 				</div>

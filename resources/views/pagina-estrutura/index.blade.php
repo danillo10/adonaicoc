@@ -6,24 +6,24 @@
 
 <div class="container-fluid">
 	<div class="row secao-site">
-		<div class="col-lg-1 col-xl-1"></div>
-		<div class="col-lg-8 col-xl-8 p-0 d-flex-row-start">
+		<div class="col-md-1 col-lg-1 col-xl-1"></div>
+		<div class="col-md-8 col-lg-8 col-xl-8 p-0 d-flex-row-start">
 			<div class="titulo-secao">
 				<h1>Estrutura Física da Escola</h1>
 			</div>
 		</div>
-		<div class="col-lg-2 col-xl-2">
+		<div class="col-md-2 col-lg-2 col-xl-2">
 			<div class="titulo-secao">
 				
 			</div>
 		</div>
-		<div class="col-lg-1 col-xl-1"></div>
+		<div class="col-md-1 col-lg-1 col-xl-1"></div>
 	</div>
 </div>
 
 <div class="container">
 	<div class="row mt-4">
-		<div class="col-lg-9 col-xl-9 pr-3">
+		<div class="col-md-8 col-lg-9 col-xl-9 pr-3">
 			<p class="geral">O Instituto Educacional Adonai é uma instituição de Educação Infantil, Ensino Fundamental, Ensino Médio e Educação Profissional Técnica de Nível Médio e possui uma estrutura física composta da seguinte forma:</p>
 
 			<ul style="color:#777">
@@ -101,7 +101,7 @@
 				<li>1 sala de ballet</li>
 			</ul>
 		</div>
-		<div class="col-lg-3 col-xl-3 p-0">
+		<div class="col-md-4 col-lg-3 col-xl-3 p-0">
 			<div class="info-top">
 				<h4 class="title-on">Informações de Contato</h4>
 

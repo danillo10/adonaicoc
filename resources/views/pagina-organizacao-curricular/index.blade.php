@@ -6,24 +6,24 @@
 
 <div class="container-fluid">
 	<div class="row secao-site">
-		<div class="col-lg-1 col-xl-1"></div>
-		<div class="col-lg-8 col-xl-8 p-0 d-flex-row-start">
+		<div class="col-md-1 col-lg-1 col-xl-1"></div>
+		<div class="col-md-8 col-lg-8 col-xl-8 p-0 d-flex-row-start">
 			<div class="titulo-secao">
 				<h1>Sistema Escolar e Organização Curricular</h1>
 			</div>
 		</div>
-		<div class="col-lg-2 col-xl-2">
+		<div class="col-md-2 col-lg-2 col-xl-2">
 			<div class="titulo-secao">
 				
 			</div>
 		</div>
-		<div class="col-lg-1 col-xl-1"></div>
+		<div class="col-md-1 col-lg-1 col-xl-1"></div>
 	</div>
 </div>
 
 <div class="container">
 	<div class="row mt-4">
-		<div class="col-lg-9 col-xl-9 pr-3">
+		<div class="col-md-8 col-lg-9 col-xl-9 pr-3">
 			<p class="geral">Visando um melhor atendimento a clientela escolar, atualmente o Instituto Educacional Adonai oferece os seguintes segmentos:</p>
 			<ul style="color:#777">
 				<li>Educação Infantil;</li>
@@ -33,7 +33,7 @@
 			</ul>
 			<p class="geral">As diretrizes da Escola estão fundamentadas na Lei de Diretrizes e Bases n° 9.394/96, conforme a legislação atual de ensino.</p>
 		</div>
-		<div class="col-lg-3 col-xl-3 p-0">
+		<div class="col-md-4 col-lg-3 col-xl-3 p-0">
 			<div class="info-top">
 				<h4 class="title-on">Informações de Contato</h4>
 

@@ -124,7 +124,7 @@ ul{
   color: #b4b4b4;
 }
 
-.row-social span{
+.row-social span, .row-social span a{
   font-size: 12px;
   color:#777;
 }
@@ -769,6 +769,10 @@ button.btnSend1 {
   color:#777;
 }
 
+.footer-2 li i{
+  font-size:12px;
+}
+
 @media (min-width: 768px) and (max-width: 991.98px) { 
 
 .desktop{
@@ -795,7 +799,7 @@ button.btnSend1 {
   color: #b4b4b4;
 }
 
-.row-social span{
+.row-social span, .row-social span a{
   font-size: 10px;
   color:#777;
   padding-left: 3px;
@@ -867,6 +871,10 @@ h4.card-title{
 
 .informativo{
   height: 100px auto;
+}
+
+footer{
+  font-size: 9px;
 }
 
 }

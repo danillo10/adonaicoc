@@ -6,24 +6,24 @@
 
 <div class="container-fluid">
 	<div class="row secao-site">
-		<div class="col-lg-1 col-xl-1"></div>
-		<div class="col-lg-8 col-xl-8 p-0 d-flex-row-start">
+		<div class="col-md-1 col-lg-1 col-xl-1"></div>
+		<div class="col-md-8 col-lg-8 col-xl-8 p-0 d-flex-row-start">
 			<div class="titulo-secao">
 				<h1>Filosofia</h1>
 			</div>
 		</div>
-		<div class="col-lg-2 col-xl-2">
+		<div class="col-md-2 col-lg-2 col-xl-2">
 			<div class="titulo-secao">
 				
 			</div>
 		</div>
-		<div class="col-lg-1 col-xl-1"></div>
+		<div class="col-md-1 col-lg-1 col-xl-1"></div>
 	</div>
 </div>
 
 <div class="container">
 	<div class="row mt-4">
-		<div class="col-lg-9 col-xl-9 pr-3">
+		<div class="col-md-8 col-lg-9 col-xl-9 pr-3">
 			<p class="geral">A sociedade atual impõe a educadores e educandos a tarefa de aplicar novas tecnologias. Logo, as perspectivas que se abrem nos diversos campos do saber, implicam em um modelo educacional permanentemente aberto ao novo, ao dinâmico e ao interativo.</p>
 			<p class="geral">Dessa forma o Instituto Educacional Adonai trabalha para construção de princípios cristãos, do desenvolvimento humano harmonioso e da formação do cidadão: um ser crítico, autônomo, participativo, inovador, capaz de atuar com competência, dignidade e responsabilidade.</p>
 			<p class="geral">Vale ressaltar que, a formação do indivíduo para um mundo globalizado envolve a absorção do novo. Porém, esta não pode sobrepor-se a uma compreensão lúcida da realidade e do domínio de equipamenos básicos para a vida: competência linguística, o raciocínio lógico e matemático, a iniciação científica, a consciência do meio ambiente, a visão histórica e a experiência artística.</p>
@@ -36,7 +36,7 @@
 				<li>Estimular o estudo, a proteção e a conservação da natureza criada por Deus, tomando por base a Biblía e os ensinamentos cristãos.</li>
 			</ul>
 		</div>
-		<div class="col-lg-3 col-xl-3 p-0">
+		<div class="col-md-4 col-lg-3 col-xl-3 p-0">
 			<div class="info-top">
 				<h4 class="title-on">Informações de Contato</h4>
 

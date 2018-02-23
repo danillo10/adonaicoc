@@ -6,24 +6,24 @@
 
 <div class="container-fluid">
 	<div class="row secao-site">
-		<div class="col-lg-1 col-xl-1"></div>
-		<div class="col-lg-8 col-xl-8 p-0 d-flex-row-start">
+		<div class="col-md-1 col-lg-1 col-xl-1"></div>
+		<div class="col-md-8 col-lg-8 col-xl-8 p-0 d-flex-row-start">
 			<div class="titulo-secao">
 				<h1>Nossa História</h1>
 			</div>
 		</div>
-		<div class="col-lg-2 col-xl-2">
+		<div class="col-md-2 col-lg-2 col-xl-2">
 			<div class="titulo-secao">
 				
 			</div>
 		</div>
-		<div class="col-lg-1 col-xl-1"></div>
+		<div class="col-md-1 col-lg-1 col-xl-1"></div>
 	</div>
 </div>
 
 <div class="container">
 	<div class="row mt-4">
-		<div class="col-lg-9 col-xl-9 pr-3">
+		<div class="col-md-8 col-lg-9 col-xl-9 pr-3">
 			<p class="geral">Em 1998, impulsionada pelo sonho de implantar em Açailândia um ensino inovador, dinâmico e cristão, chega à cidade Janaina Karine de Sousa Araújo, jovem empreendedora nascida em São Luis/Ma.</p>
 			<p class="geral">Idealismo, entusiasmo e amor pela educação, fizeram com que em janeiro de 1999 a mesma concretizasse seu sonho. Nasce então, o Instituto Educacional Adonai, localizado à Rua Boa Vista, 214, Jacu, com instalações alugadas, contando com um número inicial de 54 alunos e 11 fúncionários.</p>
 			<p class="geral">O sucesso alcançado em 1999, fez com que em maio de 2000, o Instituto Educacional Adonai, mudasse para instalações mais amplas, situando à Rua Bom Jesus, 305, Centro.</p>
@@ -34,7 +34,7 @@
 			<p class="geral">Compromissado com o que há de melhor na educação e atentos para as novas tendências é que em 2011 o Instituto Adonai firma parceria com um novo ensino Sistema COC, qualificação e excelência em seus métodos, ajuda a conduzir nossos alunos no caminho certo para o efetivo aprendizado. O material didádico COC é supercompleto e exercita o prazer de aprender em qualquer fase do conhecimento, pois oferece conteúdos diversificados e dinâmicos que facilitam o aprendizado e motivam o aluno. Assim, toda bagagem aprendida hoje vira conhecimento amanhã.</p>
 			<p class="geral">Sempre moderno e atualizado, o Instituto Educacional Adonai é hoje, referência de qualidade no âmbito educacional na região tocantina, contruindo uma educação voltada para o exercício da cidadania e para a Fé Cristã. Afinal, desde o início de suas atividades apóia-se sobre a ideia de que a educação tem um compromisso com a realidade em constante mudança. Para tanto, opera de modo flexível e dinâmico com os olhos voltados para o futuro.</p>
 		</div>
-		<div class="col-lg-3 col-xl-3 p-0">
+		<div class="col-md-4 col-lg-3 col-xl-3 p-0">
 			<div class="info-top">
 				<h4 class="title-on">Informações de Contato</h4>
 
