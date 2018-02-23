@@ -987,6 +987,10 @@ h1.title-on:after{
   clip-path: polygon(42% 2%, 100% 0%, 100% 100%, 50% 100%, 0% 100%, 0% 1%);
 }
 
+.card{
+  max-width: 100%;
+}
+
 .card-content{
   font-size: 11px;
 }
@@ -1142,6 +1146,10 @@ h1.title-on:after{
   -webkit-margin-end: 0px;
 }
 
+.card{
+  max-width: 100%;
+}
+
 .card-content{
   font-size: 11px;
 }
@@ -1169,6 +1177,10 @@ ul.footer-2 li.news{
 
 ul li.news:last-child{
   border-bottom: 0px solid;
+}
+
+.footer-copyright{
+  height: 90px;
 }
 
 }

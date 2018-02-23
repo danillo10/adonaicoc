@@ -96,10 +96,10 @@
 
 		<div class="footer-copyright x-mobile">
 			<div class="container-fluid p-0 d-flex flex-column align-items-center h-100">
-				<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 col-xl-9 pl-0 d-flex-row-center text-center">
+				<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 col-xl-9 pl-0 d-flex-row-center text-center mt-3">
 					Copyright © 1998-2018 Instituto Educacional Adonai COC
 				</div>
-				<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 d-flex flex-row justify-content-center">
+				<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 d-flex flex-row justify-content-center mt-2">
 					<a class="fb" href="#"><i class="fab fa-twitter"></i></a>
 					<a class="fb" href="https://www.facebook.com/Adonai-Coc-276378852736800/" target="_blank"><i class="fab fa-facebook-f"></i></a>
 					<a class="fb" href="#"><i class="fab fa-linkedin-in"></i></a>
