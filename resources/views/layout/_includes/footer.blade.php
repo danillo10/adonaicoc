@@ -1,7 +1,7 @@
 	<footer>
 		<div class="footer-bottom">
 			<div class="container d-flex flex-row mt-3">
-				<div class="col-lg-3 col-xl-3 p-0">
+				<div class="col-md-3 col-lg-3 col-xl-3 p-0">
 					<img src="{{asset('img/LOGOADONAIBRANDO2.png')}}" alt="LOGOMARCA" class="logo">
 
 					<ul class="footer p-0">
@@ -11,7 +11,7 @@
 						<li>Ensino Superior</li>
 					</ul>
 				</div>
-				<div class="col-lg-3 col-xl-3">
+				<div class="col-md-3 col-lg-3 col-xl-3">
 					<h6 class="title">Adonai Coc</h6>
 
 					<ul class="footer-2 p-0">
@@ -21,7 +21,7 @@
 						<li><i class="fas fa-home" style="font-size: 12px;"></i>&nbsp; Rua São Francisco, 12 QD 13, Açailândia</li>
 					</ul>
 				</div>
-				<div class="col-lg-3 col-xl-3">
+				<div class="col-md-3 col-lg-3 col-xl-3">
 					<h6 class="title">Últimos Tópicos</h6>
 
 					<ul class="footer-2 p-0">
@@ -30,7 +30,7 @@
 						<li class="news"><a href="http://www.coc.com.br/noticias/como-se-preparar-para-apresentar-trabalhos-na-sala-de-aula" target="_blank">Como se preparar para apresentar trabalhos na sala de aula</a></li>
 					</ul>
 				</div>
-				<div class="col-lg-3 col-xl-3">
+				<div class="col-md-3 col-lg-3 col-xl-3">
 					<h6 class="title">Links Rápidos</h6>
 
 					<ul class="footer-2 p-0">
@@ -45,10 +45,10 @@
 
 		<div class="footer-copyright">
 			<div class="container p-0 d-flex flex-row align-items-center h-100">
-				<div class="col-lg-9 col-xl-9 pl-0">
+				<div class="col-md-9 col-lg-9 col-xl-9 pl-0">
 					Copyright © 2016-2018 Instituto Educacional Adonai COC
 				</div>
-				<div class="col-lg-3 col-xl-3 d-flex flex-row">
+				<div class="col-md-3 col-lg-3 col-xl-3 d-flex flex-row">
 					<a class="fb" href="#"><i class="fab fa-twitter"></i></a>
 					<a class="fb" href="https://www.facebook.com/Adonai-Coc-276378852736800/" target="_blank"><i class="fab fa-facebook-f"></i></a>
 					<a class="fb" href="#"><i class="fab fa-linkedin-in"></i></a>

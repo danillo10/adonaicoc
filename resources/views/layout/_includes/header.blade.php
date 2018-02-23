@@ -27,18 +27,18 @@
 
 	<div class="container-fluid p-0">
  		<div class="row-social w-100 d-flex flex-row justify-content-end align-items-center pr-5">
- 			<div class="col-lg-6 col-xl-6 offset-lg-1 offset-xl-1 d-flex">
+ 			<div class="col-md-9 col-lg-6 col-xl-6 offset-lg-1 offset-xl-1 d-flex">
  				<div class="d-flex-row-center">
- 					<i class="material-icons" style="font-size: 12px;">phone</i>&nbsp;<span style="font-size: 11px;color:#777">(99) 3592-0017</span>
+ 					<i class="material-icons">phone</i>&nbsp;<span class="tel">(99) 3592-0017</span>
  				</div>
  				<div class="d-flex-row-center">
- 					<i class="fas fa-envelope pl-3" style="font-size: 12px;"></i>&nbsp;<span style="font-size: 12px;color:#777">contato@adonaicoc.com.br</span>
+ 					<i class="fas fa-envelope pl-3"></i>&nbsp;<span>contato@adonaicoc.com.br</span>
 				</div>
 				<div class="d-flex-row-center">
-					<i class="fas fa-home pl-3" style="font-size: 12px;"></i>&nbsp;<span style="font-size: 12px;color:#777">Rua São Francisco, 12 QD 13, Açailândia - MA</span>
+					<i class="fas fa-home pl-3"></i>&nbsp;<span>Rua São Francisco, 12 QD 13, Açailândia - MA</span>
 				</div>
  			</div>
- 			<div class="col-lg-5 col-xl-5 d-flex-row-end h-100">
+ 			<div class="col-md-3 col-lg-5 col-xl-5 d-flex-row-end h-100">
 	 			<a href="#" class="null h-100 relative d-flex-row-center twitter" target="_blank"><i class="fab fa-twitter text-center"></i><span class="fade-social fade-social-twitter"></span></a>
 				<a href="https://www.facebook.com/Adonai-Coc-276378852736800/" class="null h-100 relative d-flex-row-center facebook" target="_blank"><i class="fab fa-facebook-f text-center"></i><span class="fade-social fade-social-facebook"></span></a>
 				<a href="#" class="null h-100 relative d-flex-row-center in" target="_blank"><i class="fab fa-linkedin-in text-center"></i><span class="fade-social fade-social-in"></span></a>
@@ -49,20 +49,20 @@
  		</div>
 
 		<div class="row topo p-0">
-			<div class="col-lg-4 col-xl-4 offset-lg-1 offset-xl-1 pl-4 d-flex flex-row align-items-center">
+			<div class="col-md-4 col-lg-4 col-xl-4 offset-md-1 offset-lg-1 offset-xl-1 pl-4 d-flex flex-row align-items-center">
 				<a href="{{route('site.home')}}"><img src="{{asset('img/LOGOADONAI.png')}}" alt="LOGOMARCA" class="logo img-fluid"></a>
 				<!-- <img src="http://via.placeholder.com/180x50" alt="LOGOMARCA" class="logo1"> -->
 			</div>
-			<div class="col-lg-6 col-xl-6 d-flex-row-end p-0 h-100 m-0">
+			<div class="col-md-6 col-lg-6 col-xl-6 d-flex-row-end p-0 h-100 m-0">
 				<nav class="w-100 h-100 d-flex-row-end">
 					<div class="nav d-flex-row-center active">
-						<a href="#" class="null">A Escola</a>
+						<a href="#" class="null">Unidades</a>
 					</div>
 					<div class="nav d-flex-row-center faleconosco">
-						<a href="{{route('site.faleconosco')}}">Fale Conosco</a>
+						<a href="{{route('site.faleconosco')}}" class="fc">Fale Conosco</a>
 					</div>
 					<div class="nav d-flex-row-center relative">
-						A Escola
+						<span>A Escola</span>
 						<div class="sub-nav sub-nav-2">
 							<ul>
 								<li><a href="{{route('site.historia')}}">Nossa História</a></li>
@@ -74,7 +74,7 @@
 						</div>
 					</div>
 					<div class="nav d-flex-row-center relative">
-						Links
+						<span>Links</span>
 						<div class="sub-nav sub-nav-3">
 							<ul>
 								<li><a href="http://www.coc.com.br" target="_blank">Portal Coc</a></li>

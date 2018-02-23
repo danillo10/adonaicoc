@@ -8,10 +8,15 @@ body{
     padding: 0px;
 }
 
+
 /* COR PRINCIPAL */
 .nav.active, .nav:hover, .content-01, .informativo, .whycoc, .sub-slider{
 	/*background-color: #7cba11;*/
 	background-color: #314E88;
+}
+
+.tablet{
+  display: none !important;
 }
 
 .faleconosco:hover a{
@@ -114,9 +119,23 @@ ul{
 .row-social .fab, .row-social .fas{
 	width: 30px;
 	border-radius: 0;
-    font-size: 14px;
-    display: block;
-    color: #b4b4b4;
+  font-size: 14px;
+  display: block;
+  color: #b4b4b4;
+}
+
+.row-social span{
+  font-size: 12px;
+  color:#777;
+}
+
+.row-social .tel{
+  font-size: 11px;
+}
+
+.row-social .material-icons{
+  font-size: 13px;
+  font-weight: bold;
 }
 
 .fade-social-twitter{
@@ -295,7 +314,7 @@ h4.msv{
 .whycoc{
 	width: 100%;
 	min-height: 600px;
-    -webkit-clip-path: polygon(42% 7%, 100% 0%, 100% 100%, 50% 100%, 0% 100%, 0% 1%);
+  -webkit-clip-path: polygon(42% 7%, 100% 0%, 100% 100%, 50% 100%, 0% 100%, 0% 1%);
 	clip-path: polygon(42% 7%, 100% 0%, 100% 100%, 50% 100%, 0% 100%, 0% 1%);
 	padding: 5% 0% 0% 10%;
 }
@@ -748,4 +767,106 @@ button.btnSend1 {
 
 .form-group label{
   color:#777;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+.desktop{
+  display: none !important;
+}
+
+.tablet{
+  display: flex !important;
+}
+
+.row-social{
+  /*background-color:#2e2e30;*/
+  background-color: #f4f4f4;
+  height: 2.2rem;
+  max-height: 73.75rem;
+  border-bottom:1px solid #eeeeee;
+}
+
+.row-social .fab, .row-social .fas{
+  width: 25px;
+  border-radius: 0;
+  font-size: 12px;
+  display: block;
+  color: #b4b4b4;
+}
+
+.row-social span{
+  font-size: 10px;
+  color:#777;
+  padding-left: 3px;
+}
+
+.row-social .tel{
+  font-size: 9px;
+}
+
+.row-social .material-icons{
+  font-size: 9px;
+  font-weight: bold;
+}
+
+.logo{
+  max-width: 130px;
+}
+
+.topo{
+  padding:3px 0px 3px 0px;
+  height: 56px;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.nav a.null, .faleconosco .fc, .nav span, .nav ul li a, .nav ul li{
+  font-size: 11px;
+}
+
+.sub-nav{
+  width: 140px;
+}
+
+.sub-nav-3{
+  min-width: 90px;
+}
+
+.sub-slider{
+  font-size: 12px;
+}
+
+h1.title-on:after{
+  left: 10%;
+}
+
+#sobre .title-on:after{
+  left:2.3%;
+}
+
+#noticias .title-on:after{
+  left:3.6%;
+}
+
+#noticias .fb:after{
+  left: 7%;
+}
+
+.whycoc{
+  -webkit-clip-path: polygon(42% 7%, 100% 0%, 100% 100%, 50% 100%, 0% 100%, 0% 1%);
+  clip-path: polygon(42% 2%, 100% 0%, 100% 100%, 50% 100%, 0% 100%, 0% 1%);
+}
+
+.card-content{
+  font-size: 11px;
+}
+
+h4.card-title{
+  font-size: 13px;
+}
+
+.informativo{
+  height: 100px auto;
+}
+
 }

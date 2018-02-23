@@ -38,13 +38,13 @@
 
 		<section class="sub-slider">
 			<div class="row h-100">
-				<div class="col-lg-4 col-xl-4 d-flex-row-end">
+				<div class="col-md-4 col-lg-4 col-xl-4 d-flex-row-end">
 					EDUCAÇÃO INFANTIL 
 				</div>
-				<div class="col-lg-4 col-xl-4 d-flex-row-center">
+				<div class="col-md-4 col-lg-4 col-xl-4 d-flex-row-center">
 					ENSINO FUNDAMENTAL
 				</div>
-				<div class="col-lg-4 col-xl-4 d-flex-row-start">
+				<div class="col-md-4 col-lg-4 col-xl-4 d-flex-row-start">
 					ENSINO MÉDIO
 				</div>
 			</div>
@@ -131,8 +131,8 @@
 
 			<section id="sobre" class="mt-5 mb-5">
 
-				<div class="d-flex flex-row">
-					<div class="col-lg-7 col-xl-7">
+				<div class="d-flex flex-row flex-wrap">
+					<div class="col-md-12 col-lg-7 col-xl-7">
 
 						<h1 class="title-on">Desde 1998</h1>
 
@@ -158,10 +158,16 @@
 
 					</div>
 
-					<div class="col-lg-5 col-xl-5 d-flex flex-column justify-content-between align-items-center">
+					<div class="col-md-12 col-lg-5 col-xl-5 d-flex flex-column justify-content-between align-items-center desktop">
 						<img src="{{asset('img/foto1.jpg')}}" class="img-fluid">
 						<img src="{{asset('img/foto4.jpg')}}" class="img-fluid">
 						<img src="{{asset('img/foto5.jpg')}}" class="img-fluid">
+					</div>
+
+					<div class="col-md-12 col-lg-5 col-xl-5 d-flex-row-center tablet">
+						<div class="col-md-4"><img src="{{asset('img/foto1.jpg')}}" class="img-fluid"></div>
+						<div class="col-md-4"><img src="{{asset('img/foto4.jpg')}}" class="img-fluid"></div>
+						<div class="col-md-4"><img src="{{asset('img/foto5.jpg')}}" class="img-fluid"></div>
 					</div>
 				</div>
 
@@ -172,7 +178,7 @@
 			<section id="noticias" class="mt-5 mb-5">
 
 				<div class="d-flex flex-row">
-					<div class="col-lg-8 col-xl-8">
+					<div class="col-md-8 col-lg-8 col-xl-8">
 
 						<h1 class="title-on">Últimas Notícias</h1>
 
@@ -222,9 +228,9 @@
 
 					</div>
 
-					<div class="col-lg-4 col-xl-4">
+					<div class="col-md-4 col-lg-4 col-xl-4">
 
-						<h1 class="title-on">Facebook</h1>
+						<h1 class="title-on fb">Facebook</h1>
 
 						<div class="fb-page" data-href="https://www.facebook.com/Adonai-Coc-276378852736800/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Adonai-Coc-276378852736800/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Adonai-Coc-276378852736800/">Adonai Coc</a></blockquote></div>
 
