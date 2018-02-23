@@ -100,7 +100,6 @@ class HomeController extends Controller
 
 		Mail::to($request->email)
 		->cc('contato@adonaicoc.com.br')
-		->from('contato@adonaicoc.com.br')
 		->send(new Contato);
 
 		$errors = new MessageBag(['mensagem' => ['E-mail enviado com sucesso.']]);
