@@ -7,6 +7,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\MessageBag;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\Contato;
 
 use Mail;
 
@@ -98,20 +100,7 @@ class HomeController extends Controller
 	public function enviarContato(Request $request)
 	{
 
-		$this->validate($request, [ 'nome' => 'required', 'email' => 'required|email', 'mensagem' => 'required' ]);
-
-		$errors = new MessageBag;
-		
-		$status = Mail::send('emails.contato',
-        array(
-           'nome' => $request->get('nome'),
-           'email' => $request->get('email'),
-           'mensagem' => $request->get('mensagem')
-        ), function($message)
-		{
-		   $message->from('contato@adonaicoc.com.br');
-		   $message->to('contato@adonaicoc.com.br', 'Adonai COC')->subject('Contato Site');
-		});
+		Mail::to('contato@adonaicoc.com.br')->send();
 
 		$errors = new MessageBag(['mensagem' => ['E-mail enviado com sucesso.']]);
 		return Redirect::back()->withErrors($errors)->withInput(Input::except('mensagem'));
