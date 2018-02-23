@@ -98,7 +98,10 @@ class HomeController extends Controller
 	public function enviarContato(Request $request)
 	{
 
-		Mail::to($request->email)->send(new Contato);
+		Mail::to($request->email)
+		->cc('contato@adonaicoc.com.br')
+		->from('contato@adonaicoc.com.br')
+		->send(new Contato);
 
 		$errors = new MessageBag(['mensagem' => ['E-mail enviado com sucesso.']]);
 		return Redirect::back()->withErrors($errors)->withInput(Input::except('mensagem'));
