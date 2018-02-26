@@ -38,13 +38,13 @@
 
 		<section class="sub-slider">
 			<div class="row h-100 no-wrap">
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex-row-end">
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex-row-center p-0">
 					EDUCAÇÃO INFANTIL 
 				</div>
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex-row-center">
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex-row-center text-center p-0">
 					ENSINO FUNDAMENTAL
 				</div>
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex-row-start">
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex-row-center p-0">
 					ENSINO MÉDIO
 				</div>
 			</div>
