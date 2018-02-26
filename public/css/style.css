@@ -6,11 +6,12 @@ body{
     font-weight: 400;
     font-size: 13px;
     padding: 0px;
+    margin: 0px;
 }
 
 
 /* COR PRINCIPAL */
-.nav.active, .nav:hover, .content-01, .informativo, .whycoc, .sub-slider{
+.nav.active, .nav:hover, .content-01, .informativo, .whycoc, .sub-slider, .navbar-collapse{
 	/*background-color: #7cba11;*/
 	background-color: #314E88;
 }
@@ -291,15 +292,15 @@ h1.principal{
 
 h1.principal:after{
 	content: "";
-    position: absolute;
-    left: 15px;
-    width: 38px;
-    border-bottom: 2px solid #f1c40f;
-    border-bottom-color: inherit;
-    -webkit-margin-before: 1.40em;
-    -webkit-margin-after: 0.83em;
-    -webkit-margin-start: 44%;
-    -webkit-margin-end: 0px;
+  position: absolute;
+  left: 15px;
+  width: 38px;
+  border-bottom: 2px solid #f1c40f;
+  border-bottom-color: inherit;
+  -webkit-margin-before: 1.40em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 44%;
+  -webkit-margin-end: 0px;
 }
 
 h4.msv{
@@ -346,10 +347,10 @@ h4.msv{
 .whycoc p{
 	color: #fff;
 	font-family: Verdana,Geneva,sans-serif;
-    font-size: 13px;
-    line-height: 17px;
-    text-align: justify;
-    padding-right: 10%;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: justify;
+  padding-right: 10%;
 }
 
 .whycoc .card-mid p{
@@ -366,22 +367,22 @@ h4.msv{
 
 .whycoc .menor{
 	font-size: 22px;
-    margin-top: -2px;
-    margin-bottom: 10px;
-    font-weight: 400;
+  margin-top: -2px;
+  margin-bottom: 10px;
+  font-weight: 400;
 }
 
 .whycoc .menor:after{
 	content: "";
-    position: absolute;
-    left: 10%;
-    width: 0px;
-    border-bottom: 2px solid #fff;
-    /*border-bottom-color: inherit;*/
-    -webkit-margin-before: 1.40em;
-    -webkit-margin-after: 0.83em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+  position: absolute;
+  left: 10%;
+  width: 0px;
+  border-bottom: 2px solid #fff;
+  /*border-bottom-color: inherit;*/
+  -webkit-margin-before: 1.40em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
 }
 
 .typeoff{
@@ -421,8 +422,8 @@ p.geral{
 
 .footer-bottom{
 	padding: 2em 0 1em;
-    background: #3e4142;
-    color: #999;
+  background: #3e4142;
+  color: #999;
 }
 
 ul.footer, ul.footer-2{
@@ -1027,11 +1028,40 @@ ul.footer-2 li.news{
 }
 
 .x-mobile{
-  display: flex !important;
+  display: block !important;
 }
 
 .x-outmobile{
   display: none !important;
+}
+
+.navbar{
+  margin-left: 68%;
+  background:#f2f2f2;
+  max-height: 100%;
+  z-index: 1000000;
+}
+
+.navbar-nav li{
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.navbar-nav li:last-child{
+  border-bottom: 0px;
+}
+
+.dropdown-menu{
+  background-color: #4267b2;
+}
+
+.navbar-nav li a{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.no-wrap{
+  flex-wrap: nowrap;
 }
 
 .row-social{
@@ -1100,8 +1130,8 @@ ul.footer-2 li.news{
 }
 
 .back1 p{
-  font-size: 9px;
-  line-height: 1.6em;
+  font-size: 11px;
+  line-height: 1.1em;
 }
 
 h1.title-on{
@@ -1144,6 +1174,10 @@ h1.title-on:after{
   -webkit-margin-after: 0.83em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
+}
+
+.container1 {
+  height: 160px;
 }
 
 .card{

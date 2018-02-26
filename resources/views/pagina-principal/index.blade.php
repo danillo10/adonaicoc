@@ -37,7 +37,7 @@
 		<!-- FIM SLIDER -->
 
 		<section class="sub-slider">
-			<div class="row h-100">
+			<div class="row h-100 no-wrap">
 				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex-row-end">
 					EDUCAÇÃO INFANTIL 
 				</div>
